@@ -1,0 +1,3 @@
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/build/CMakeFiles/rebuild_cache.dir
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/build/CMakeFiles/Lab1.dir
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/build/CMakeFiles/edit_cache.dir

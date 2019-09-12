@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/code/LinuxApp.cc
+cstring
+-
+iostream
+-
+valarray
+-
+string
+-
+stdio.h
+-
+limits.h
+-
+unistd.h
+-
+thread
+-
+sstream
+-
+syscall.h
+-
+sys/utsname.h
+-
+sys/sysinfo.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+

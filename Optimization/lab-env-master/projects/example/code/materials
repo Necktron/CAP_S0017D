@@ -1,0 +1,10 @@
+#ifndef MATERIALSH
+#define MATERIALSH
+
+class material
+{
+    public:
+        virtual bool scatter(const Ray& r_in, const hit_record& rec, vector3D& attenuation, Ray& scattered) const = 0;
+};
+
+#endif

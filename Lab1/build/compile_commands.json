@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/Lab1.dir/code/LinuxApp.o -c \"/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/code/LinuxApp.cc\"",
+  "file": "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Lab1/code/LinuxApp.cc"
+}
+]

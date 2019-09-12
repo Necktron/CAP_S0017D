@@ -1,0 +1,7 @@
+/*
+	HELLO!
+	This is a copyright header thingy that's been implemented by a seperate program!
+	Pretty dank right?
+	Now continue coding and good luck noob!
+	From: Your former and less intellegent self! <3
+*/

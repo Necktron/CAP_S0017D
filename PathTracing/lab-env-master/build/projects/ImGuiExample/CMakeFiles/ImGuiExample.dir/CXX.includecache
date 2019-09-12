@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../engine/config.h
+win32/pch.h
+../engine/win32/pch.h
+stdint.h
+-
+atomic
+-
+xmmintrin.h
+-
+assert.h
+-
+
+../engine/core/app.h
+GL/glew.h
+-
+
+../engine/render/window.h
+functional
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+nanovg.h
+-
+
+../exts/glew/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+../exts/glfw-3.1.1/include/GLFW/glfw3.h
+stddef.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl3ext.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/glcorearb.h
+-
+GLES/gl.h
+-
+GLES/glext.h
+-
+GLES2/gl2.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl3.h
+-
+GLES3/gl2ext.h
+-
+GLES3/gl31.h
+-
+GLES3/gl2ext.h
+-
+GL/gl.h
+-
+GL/glext.h
+-
+GL/glu.h
+-
+
+../exts/imgui/imconfig.h
+
+../exts/imgui/imgui.h
+imconfig.h
+../exts/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+imgui_user.h
+../exts/imgui/imgui_user.h
+
+../exts/nanovg/src/nanovg.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/config.h
+exampleapp.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
+cstring
+-
+imgui.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/imgui.h
+string
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
+core/app.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/core/app.h
+render/window.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/render/window.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/main.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/config.h
+exampleapp.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
+

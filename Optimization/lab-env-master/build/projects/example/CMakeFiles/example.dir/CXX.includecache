@@ -1,0 +1,154 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../engine/config.h
+win32/pch.h
+../engine/win32/pch.h
+stdint.h
+-
+atomic
+-
+xmmintrin.h
+-
+assert.h
+-
+
+../engine/core/app.h
+GL/glew.h
+-
+
+../engine/render/window.h
+functional
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+nanovg.h
+-
+
+../exts/glew/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+../exts/glfw-3.1.1/include/GLFW/glfw3.h
+stddef.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl3ext.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/glcorearb.h
+-
+GLES/gl.h
+-
+GLES/glext.h
+-
+GLES2/gl2.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl3.h
+-
+GLES3/gl2ext.h
+-
+GLES3/gl31.h
+-
+GLES3/gl2ext.h
+-
+GL/gl.h
+-
+GL/glext.h
+-
+GL/glu.h
+-
+
+../exts/nanovg/src/nanovg.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/Vector3D.h
+iostream
+-
+math.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/math.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/camera.h
+ray.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/ray.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/config.h
+exampleapp.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.h
+cstring
+-
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.h
+core/app.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/core/app.h
+render/window.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/render/window.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitable.h
+ray.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/ray.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitableList.h
+hitable.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitable.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/main.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/config.h
+exampleapp.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.h
+fstream
+-
+iostream
+-
+Vector3D.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/Vector3D.h
+sphere.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/sphere.h
+hitableList.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitableList.h
+float.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/float.h
+camera.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/camera.h
+materials.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/materials.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/materials.h
+hitable.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitable.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/ray.h
+Vector3D.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/Vector3D.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/sphere.h
+hitable.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitable.h
+

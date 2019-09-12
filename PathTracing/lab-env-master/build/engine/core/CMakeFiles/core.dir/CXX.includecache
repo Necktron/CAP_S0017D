@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../engine/config.h
+win32/pch.h
+../engine/win32/pch.h
+stdint.h
+-
+atomic
+-
+xmmintrin.h
+-
+assert.h
+-
+
+../exts/glew/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/config.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/config.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/config.h
+win32/pch.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/win32/pch.h
+stdint.h
+-
+atomic
+-
+xmmintrin.h
+-
+assert.h
+-
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/core/app.cc
+config.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/core/config.h
+app.h
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/core/app.h
+
+/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/core/app.h
+GL/glew.h
+-
+
