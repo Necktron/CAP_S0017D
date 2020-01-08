@@ -8,8 +8,8 @@ projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o
  ../exts/glew/include/GL/glew.h
  ../exts/glfw-3.1.1/include/GLFW/glfw3.h
  ../exts/nanovg/src/nanovg.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.cc
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 projects/example/CMakeFiles/example.dir/code/main.cc.o
  ../engine/config.h
  ../engine/core/app.h
@@ -17,12 +17,12 @@ projects/example/CMakeFiles/example.dir/code/main.cc.o
  ../exts/glew/include/GL/glew.h
  ../exts/glfw-3.1.1/include/GLFW/glfw3.h
  ../exts/nanovg/src/nanovg.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/Vector3D.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/camera.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/exampleapp.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitable.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/hitableList.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/main.cc
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/materials.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/ray.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example/code/sphere.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/camera.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitableList.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/materials.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/sphere.h

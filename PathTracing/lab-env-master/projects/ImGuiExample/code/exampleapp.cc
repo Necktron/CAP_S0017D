@@ -56,8 +56,7 @@ ImGuiExampleApp::~ImGuiExampleApp()
 //------------------------------------------------------------------------------
 /**
 */
-bool
-ImGuiExampleApp::Open()
+bool ImGuiExampleApp::Open()
 {
 	App::Open();
 	this->window = new Display::Window;

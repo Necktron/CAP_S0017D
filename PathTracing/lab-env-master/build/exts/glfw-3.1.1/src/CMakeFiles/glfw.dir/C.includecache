@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/EGL/eglext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/EGL/eglext.h
 EGL/eglplatform.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glext.h
 windows.h
 -
 stddef.h
@@ -28,7 +28,7 @@ stdint.h
 inttypes.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glxext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glxext.h
 inttypes.h
 -
 inttypes.h
@@ -42,11 +42,11 @@ stdint.h
 inttypes.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/wglext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/wglext.h
 windows.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
 stddef.h
 -
 OpenGL/gl3.h
@@ -82,7 +82,7 @@ GL/glext.h
 GL/glu.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/cocoa_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/cocoa_platform.h
 stdint.h
 -
 Cocoa/Cocoa.h
@@ -90,15 +90,15 @@ Cocoa/Cocoa.h
 ApplicationServices/ApplicationServices.h
 -
 posix_tls.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
 nsgl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/nsgl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/nsgl_context.h
 iokit_joystick.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/iokit_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/iokit_joystick.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/context.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/context.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 stdio.h
 -
 string.h
@@ -108,17 +108,17 @@ limits.h
 stdio.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
 EGL/egl.h
 -
 ../deps/EGL/eglext.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/EGL/eglext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/EGL/eglext.h
 dlfcn.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 string.h
 -
 stdlib.h
@@ -126,17 +126,17 @@ stdlib.h
 assert.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.h
 GL/glx.h
 -
 ../deps/GL/glxext.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glxext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glxext.h
 dlfcn.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/init.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/init.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 string.h
 -
 stdlib.h
@@ -146,33 +146,33 @@ stdio.h
 stdarg.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/input.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/input.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 stdlib.h
 -
 malloc.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 glfw_config.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h
 ../include/GLFW/glfw3.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
 ../deps/GL/glext.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/glext.h
 cocoa_platform.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/cocoa_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/cocoa_platform.h
 win32_platform.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_platform.h
 x11_platform.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h
 wl_platform.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wl_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wl_platform.h
 mir_platform.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/mir_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/mir_platform.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/iokit_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/iokit_joystick.h
 IOKit/IOKitLib.h
 -
 IOKit/IOCFPlugIn.h
@@ -182,9 +182,9 @@ IOKit/hid/IOHIDLib.h
 IOKit/hid/IOHIDKeys.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 linux/joystick.h
 -
 sys/types.h
@@ -208,29 +208,29 @@ string.h
 unistd.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
 regex.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/mir_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/mir_platform.h
 mir_toolkit/mir_client_library.h
 -
 posix_tls.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
 posix_time.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
 linux_joystick.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
 sys/queue.h
 -
 pthread.h
 -
 egl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/monitor.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/monitor.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 math.h
 -
 float.h
@@ -242,33 +242,33 @@ stdlib.h
 limits.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/nsgl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/nsgl_context.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 sys/time.h
 -
 time.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
 stdint.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
 pthread.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wgl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wgl_context.h
 ../deps/GL/wglext.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/wglext.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/deps/GL/wglext.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_platform.h
 windows.h
 -
 mmsystem.h
@@ -278,43 +278,43 @@ dbt.h
 malloc.h
 -
 win32_tls.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_tls.h
 wgl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wgl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wgl_context.h
 egl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
 winmm_joystick.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/winmm_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/winmm_joystick.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/win32_tls.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/window.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/window.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 string.h
 -
 stdlib.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/winmm_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/winmm_joystick.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wl_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/wl_platform.h
 wayland-client.h
 -
 xkbcommon/xkbcommon.h
 -
 egl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
 posix_tls.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
 posix_time.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
 linux_joystick.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_init.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_init.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 X11/Xresource.h
 -
 stdlib.h
@@ -328,9 +328,9 @@ stdio.h
 locale.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_monitor.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_monitor.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 limits.h
 -
 stdlib.h
@@ -338,7 +338,7 @@ stdlib.h
 string.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h
 unistd.h
 -
 signal.h
@@ -364,21 +364,21 @@ X11/extensions/XInput2.h
 X11/extensions/xf86vmode.h
 -
 posix_tls.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h
 glx_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/glx_context.h
 egl_context.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/egl_context.h
 posix_time.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/posix_time.h
 linux_joystick.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h
 xkb_unicode.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_window.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/x11_window.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 X11/cursorfont.h
 -
 X11/Xmd.h
@@ -394,11 +394,11 @@ stdlib.h
 limits.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.c
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.c
 internal.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/internal.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h
 
 exts/glfw-3.1.1/src/glfw_config.h
 

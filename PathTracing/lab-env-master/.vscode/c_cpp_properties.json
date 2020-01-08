@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "go2sh.cmake-integration",
+            "compilerArgs": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Necktron Linux Home",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

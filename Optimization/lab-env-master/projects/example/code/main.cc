@@ -211,8 +211,8 @@ int main()
 {
 	std::ofstream img("Chap12_Ballmania.ppm");
 
-	int nx = 3840;
-	int ny = 2160;
+	int nx = 200;
+	int ny = 100;
 	int ns = 100;
 	img << "P3\n" << nx << " " << ny << "\n255\n";
 	// hitable *list[5];

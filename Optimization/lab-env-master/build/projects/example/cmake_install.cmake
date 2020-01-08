@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/example
+# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

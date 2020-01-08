@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/glew
+# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

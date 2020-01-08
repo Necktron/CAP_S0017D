@@ -104,13 +104,13 @@ math.h
 nanovg.h
 ../exts/nanovg/src/nanovg.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/config.cc
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.cc
 config.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 win32/pch.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/win32/pch.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/win32/pch.h
 stdint.h
 -
 atomic
@@ -120,21 +120,21 @@ xmmintrin.h
 assert.h
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/window.cc
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.cc
 config.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/config.h
 window.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/window.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 imgui.h
 -
 imgui_impl_glfw_gl3.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/imgui_impl_glfw_gl3.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/imgui_impl_glfw_gl3.h
 nanovg.h
 -
 nanovg_gl.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/nanovg_gl.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/nanovg_gl.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/engine/render/window.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 functional
 -
 GL/glew.h

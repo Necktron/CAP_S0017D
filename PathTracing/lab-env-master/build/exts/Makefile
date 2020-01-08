@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master"
+CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build"
+CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/progress.marks"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles" 0
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/progress.marks
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/clean
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/preinstall
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/preinstall
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 exts/CMakeFiles/imgui.dir/rule:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/imgui.dir/rule
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/imgui.dir/rule
 .PHONY : exts/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ imgui: exts/CMakeFiles/imgui.dir/rule
 
 # fast build rule for target.
 imgui/fast:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/build
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 # Convenience name for target.
 exts/CMakeFiles/nanovg.dir/rule:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/nanovg.dir/rule
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 exts/CMakeFiles/nanovg.dir/rule
 .PHONY : exts/CMakeFiles/nanovg.dir/rule
 
 # Convenience name for target.
@@ -137,116 +137,116 @@ nanovg: exts/CMakeFiles/nanovg.dir/rule
 
 # fast build rule for target.
 nanovg/fast:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/build
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/build
 .PHONY : nanovg/fast
 
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.o: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.o: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.o
 
 .PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.o
 
 # target to build an object file
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o
-.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.o:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.o
+.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.o
 
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.i: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.i
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.i: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.i
 
 .PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.i
 
 # target to preprocess a source file
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.i:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.i
-.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.i
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.i:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.i
+.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.i
 
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.s: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.s
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.s: imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.s
 
 .PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.s
 
 # target to generate assembly for a file
-imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.s:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.s
-.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.s
+imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.s:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.s
+.PHONY : imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.s
 
-imgui/imgui.o: imgui/imgui.cpp.o
+imgui/imgui.o: imgui/imgui.cc.o
 
 .PHONY : imgui/imgui.o
 
 # target to build an object file
-imgui/imgui.cpp.o:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o
-.PHONY : imgui/imgui.cpp.o
+imgui/imgui.cc.o:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cc.o
+.PHONY : imgui/imgui.cc.o
 
-imgui/imgui.i: imgui/imgui.cpp.i
+imgui/imgui.i: imgui/imgui.cc.i
 
 .PHONY : imgui/imgui.i
 
 # target to preprocess a source file
-imgui/imgui.cpp.i:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.i
-.PHONY : imgui/imgui.cpp.i
+imgui/imgui.cc.i:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cc.i
+.PHONY : imgui/imgui.cc.i
 
-imgui/imgui.s: imgui/imgui.cpp.s
+imgui/imgui.s: imgui/imgui.cc.s
 
 .PHONY : imgui/imgui.s
 
 # target to generate assembly for a file
-imgui/imgui.cpp.s:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.s
-.PHONY : imgui/imgui.cpp.s
+imgui/imgui.cc.s:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui.cc.s
+.PHONY : imgui/imgui.cc.s
 
-imgui/imgui_demo.o: imgui/imgui_demo.cpp.o
+imgui/imgui_demo.o: imgui/imgui_demo.cc.o
 
 .PHONY : imgui/imgui_demo.o
 
 # target to build an object file
-imgui/imgui_demo.cpp.o:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o
-.PHONY : imgui/imgui_demo.cpp.o
+imgui/imgui_demo.cc.o:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cc.o
+.PHONY : imgui/imgui_demo.cc.o
 
-imgui/imgui_demo.i: imgui/imgui_demo.cpp.i
+imgui/imgui_demo.i: imgui/imgui_demo.cc.i
 
 .PHONY : imgui/imgui_demo.i
 
 # target to preprocess a source file
-imgui/imgui_demo.cpp.i:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.i
-.PHONY : imgui/imgui_demo.cpp.i
+imgui/imgui_demo.cc.i:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cc.i
+.PHONY : imgui/imgui_demo.cc.i
 
-imgui/imgui_demo.s: imgui/imgui_demo.cpp.s
+imgui/imgui_demo.s: imgui/imgui_demo.cc.s
 
 .PHONY : imgui/imgui_demo.s
 
 # target to generate assembly for a file
-imgui/imgui_demo.cpp.s:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.s
-.PHONY : imgui/imgui_demo.cpp.s
+imgui/imgui_demo.cc.s:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cc.s
+.PHONY : imgui/imgui_demo.cc.s
 
-imgui/imgui_draw.o: imgui/imgui_draw.cpp.o
+imgui/imgui_draw.o: imgui/imgui_draw.cc.o
 
 .PHONY : imgui/imgui_draw.o
 
 # target to build an object file
-imgui/imgui_draw.cpp.o:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o
-.PHONY : imgui/imgui_draw.cpp.o
+imgui/imgui_draw.cc.o:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cc.o
+.PHONY : imgui/imgui_draw.cc.o
 
-imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
+imgui/imgui_draw.i: imgui/imgui_draw.cc.i
 
 .PHONY : imgui/imgui_draw.i
 
 # target to preprocess a source file
-imgui/imgui_draw.cpp.i:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.i
-.PHONY : imgui/imgui_draw.cpp.i
+imgui/imgui_draw.cc.i:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cc.i
+.PHONY : imgui/imgui_draw.cc.i
 
-imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
+imgui/imgui_draw.s: imgui/imgui_draw.cc.s
 
 .PHONY : imgui/imgui_draw.s
 
 # target to generate assembly for a file
-imgui/imgui_draw.cpp.s:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.s
-.PHONY : imgui/imgui_draw.cpp.s
+imgui/imgui_draw.cc.s:
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/imgui.dir/build.make exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cc.s
+.PHONY : imgui/imgui_draw.cc.s
 
 nanovg/src/nanovg.o: nanovg/src/nanovg.c.o
 
@@ -254,7 +254,7 @@ nanovg/src/nanovg.o: nanovg/src/nanovg.c.o
 
 # target to build an object file
 nanovg/src/nanovg.c.o:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o
 .PHONY : nanovg/src/nanovg.c.o
 
 nanovg/src/nanovg.i: nanovg/src/nanovg.c.i
@@ -263,7 +263,7 @@ nanovg/src/nanovg.i: nanovg/src/nanovg.c.i
 
 # target to preprocess a source file
 nanovg/src/nanovg.c.i:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.i
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.i
 .PHONY : nanovg/src/nanovg.c.i
 
 nanovg/src/nanovg.s: nanovg/src/nanovg.c.s
@@ -272,7 +272,7 @@ nanovg/src/nanovg.s: nanovg/src/nanovg.c.s
 
 # target to generate assembly for a file
 nanovg/src/nanovg.c.s:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.s
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(MAKE) -f exts/CMakeFiles/nanovg.dir/build.make exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.s
 .PHONY : nanovg/src/nanovg.c.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

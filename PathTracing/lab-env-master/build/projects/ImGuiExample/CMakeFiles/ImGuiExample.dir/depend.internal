@@ -10,8 +10,8 @@ projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o
  ../exts/imgui/imconfig.h
  ../exts/imgui/imgui.h
  ../exts/nanovg/src/nanovg.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.cc
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.cc
+ /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o
  ../engine/config.h
  ../engine/core/app.h
@@ -19,5 +19,5 @@ projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o
  ../exts/glew/include/GL/glew.h
  ../exts/glfw-3.1.1/include/GLFW/glfw3.h
  ../exts/nanovg/src/nanovg.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
- /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/ImGuiExample/code/main.cc
+ /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/ImGuiExample/code/exampleapp.h
+ /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/ImGuiExample/code/main.cc

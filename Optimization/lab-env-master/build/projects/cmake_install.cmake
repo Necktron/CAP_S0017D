@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects
+# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample/cmake_install.cmake")
-  include("/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/example/cmake_install.cmake")
+  include("/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample/cmake_install.cmake")
+  include("/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example/cmake_install.cmake")
 
 endif()
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp.o"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/imgui/imgui.cpp" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/imgui/imgui_demo.cpp" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/exts/imgui/imgui_draw.cpp" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cc.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/imgui/imgui.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui.cc.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/imgui/imgui_demo.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui_demo.cc.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/exts/imgui/imgui_draw.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/imgui/imgui_draw.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

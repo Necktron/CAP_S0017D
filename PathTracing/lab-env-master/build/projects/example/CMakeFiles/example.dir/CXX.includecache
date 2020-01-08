@@ -86,69 +86,69 @@ GL/glu.h
 
 ../exts/nanovg/src/nanovg.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/Vector3D.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/Vector3D.h
 iostream
 -
 math.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/math.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/math.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/camera.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/camera.h
 ray.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/ray.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/ray.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/exampleapp.cc
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/exampleapp.cc
 config.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/config.h
 exampleapp.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/exampleapp.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/exampleapp.h
 cstring
 -
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/exampleapp.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/exampleapp.h
 core/app.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/core/app.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/core/app.h
 render/window.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/render/window.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/render/window.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitable.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitable.h
 ray.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/ray.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/ray.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitableList.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitableList.h
 hitable.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitable.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitable.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/main.cc
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/main.cc
 config.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/config.h
 exampleapp.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/exampleapp.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/exampleapp.h
 fstream
 -
 iostream
 -
 Vector3D.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/Vector3D.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/Vector3D.h
 sphere.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/sphere.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/sphere.h
 hitableList.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitableList.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitableList.h
 float.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/float.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/float.h
 camera.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/camera.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/camera.h
 materials.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/materials.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/materials.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/materials.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/materials.h
 hitable.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitable.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitable.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/ray.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/ray.h
 Vector3D.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/Vector3D.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/Vector3D.h
 
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/sphere.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/sphere.h
 hitable.h
-/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/projects/example/code/hitable.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/projects/example/code/hitable.h
 

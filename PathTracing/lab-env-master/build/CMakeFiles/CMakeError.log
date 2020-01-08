@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5272/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5272.dir/build.make CMakeFiles/cmTC_d5272.dir/build
-make[1]: Entering directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d5272.dir/CheckSymbolExists.c.o
-/usr/bin/gcc-7    -o CMakeFiles/cmTC_d5272.dir/CheckSymbolExists.c.o   -c "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_d5272
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5272.dir/link.txt --verbose=1
-/usr/bin/gcc-7      -rdynamic CMakeFiles/cmTC_d5272.dir/CheckSymbolExists.c.o  -o cmTC_d5272 
-CMakeFiles/cmTC_d5272.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_88699/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88699.dir/build.make CMakeFiles/cmTC_88699.dir/build
+make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88699.dir/CheckSymbolExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_88699.dir/CheckSymbolExists.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88699.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_88699.dir/CheckSymbolExists.c.o  -o cmTC_88699 
+CMakeFiles/cmTC_88699.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d5272.dir/build.make:97: recipe for target 'cmTC_d5272' failed
-make[1]: *** [cmTC_d5272] Error 1
-make[1]: Leaving directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d5272/fast' failed
-make: *** [cmTC_d5272/fast] Error 2
+CMakeFiles/cmTC_88699.dir/build.make:97: recipe for target 'cmTC_88699' failed
+make[1]: *** [cmTC_88699] Error 1
+make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_88699/fast' failed
+make: *** [cmTC_88699/fast] Error 2
 
-File /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,43 +34,43 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b5d51/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b5d51.dir/build.make CMakeFiles/cmTC_b5d51.dir/build
-make[1]: Entering directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5d51.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b5d51.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b5d51
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5d51.dir/link.txt --verbose=1
-/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b5d51.dir/CheckFunctionExists.c.o  -o cmTC_b5d51 -lpthreads 
-/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_fbbdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbbdb.dir/build.make CMakeFiles/cmTC_fbbdb.dir/build
+make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbbdb.dir/CheckFunctionExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fbbdb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbbdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbdb.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fbbdb.dir/CheckFunctionExists.c.o  -o cmTC_fbbdb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b5d51.dir/build.make:97: recipe for target 'cmTC_b5d51' failed
-make[1]: *** [cmTC_b5d51] Error 1
-make[1]: Leaving directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b5d51/fast' failed
-make: *** [cmTC_b5d51/fast] Error 2
+CMakeFiles/cmTC_fbbdb.dir/build.make:97: recipe for target 'cmTC_fbbdb' failed
+make[1]: *** [cmTC_fbbdb] Error 1
+make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fbbdb/fast' failed
+make: *** [cmTC_fbbdb/fast] Error 2
 
 
 Determining if the function glXGetProcAddressEXT exists failed with the following output:
-Change Dir: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2e36/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2e36.dir/build.make CMakeFiles/cmTC_f2e36.dir/build
-make[1]: Entering directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2e36.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_f2e36.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f2e36
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e36.dir/link.txt --verbose=1
-/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_f2e36.dir/CheckFunctionExists.c.o  -o cmTC_f2e36 /usr/lib/x86_64-linux-gnu/libGL.so 
-CMakeFiles/cmTC_f2e36.dir/CheckFunctionExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_6a79c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a79c.dir/build.make CMakeFiles/cmTC_6a79c.dir/build
+make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a79c.dir/CheckFunctionExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_6a79c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a79c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a79c.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_6a79c.dir/CheckFunctionExists.c.o  -o cmTC_6a79c /usr/lib/x86_64-linux-gnu/libGL.so 
+CMakeFiles/cmTC_6a79c.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `glXGetProcAddressEXT'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f2e36.dir/build.make:98: recipe for target 'cmTC_f2e36' failed
-make[1]: *** [cmTC_f2e36] Error 1
-make[1]: Leaving directory '/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f2e36/fast' failed
-make: *** [cmTC_f2e36/fast] Error 2
+CMakeFiles/cmTC_6a79c.dir/build.make:98: recipe for target 'cmTC_6a79c' failed
+make[1]: *** [cmTC_6a79c] Error 1
+make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6a79c/fast' failed
+make: *** [cmTC_6a79c/fast] Error 2
 
 

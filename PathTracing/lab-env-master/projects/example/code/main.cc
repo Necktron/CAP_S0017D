@@ -34,7 +34,7 @@ vector3D color(const Ray &r, hitable *world, int depth)
 		if(depth < 50 && rec.mat_ptr->scatter(r, rec, attenuation, scattered))
 		{
 			return attenuation * color(scattered, world, depth+1);
-		}
+		}3840
 
 		else
 		{
@@ -209,18 +209,18 @@ hitable *random_scene()
 //MAIN
 int main()
 {
-	std::ofstream img("Chap12_Ballmania.ppm");
+	std::ofstream img("TestLinux.ppm");
 
-	int nx = 3840;
-	int ny = 2160;
+	int nx = 1920;
+	int ny = 1080;
 	int ns = 100;
 	img << "P3\n" << nx << " " << ny << "\n255\n";
-	// hitable *list[5];
-	// list[0] = new sphere(vector3D(0, 0, -1), 0.5, new lambertian(vector3D(0.1, 0.2, 0.5)));
-	// list[1] = new sphere(vector3D(0, -100.5, -1), 100, new lambertian(vector3D(0.8, 0.8, 0.0)));
-	// list[2] = new sphere(vector3D(1, 0, -1), 0.5, new metal(vector3D(0.8, 0.6, 0.2), 0.2));
-	// list[3] = new sphere(vector3D(-1, 0, -1), 0.5, new dielectric(1.5));
-	// list[4] = new sphere(vector3D(-1, 0, -1), -0.45, new dielectric(1.5));
+	hitable *list[5];
+	list[0] = new sphere(vector3D(0, 0, -1), 0.5, new lambertian(vector3D(0.1, 0.2, 0.5)));
+	list[1] = new sphere(vector3D(0, -100.5, -1), 100, new lambertian(vector3D(0.8, 0.8, 0.0)));
+	list[2] = new sphere(vector3D(1, 0, -1), 0.5, new metal(vector3D(0.8, 0.6, 0.2), 0.2));
+	list[3] = new sphere(vector3D(-1, 0, -1), 0.5, new dielectric(1.5));
+	list[4] = new sphere(vector3D(-1, 0, -1), -0.45, new dielectric(1.5));
 	hitable *world = random_scene();
 
 	vector3D lookFrom(0, 2, 1);

@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master
+# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/exts/cmake_install.cmake")
-  include("/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/engine/cmake_install.cmake")
-  include("/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/cmake_install.cmake")
+  include("/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/cmake_install.cmake")
+  include("/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/engine/cmake_install.cmake")
+  include("/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/config.cc" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/engine/render/CMakeFiles/render.dir/__/config.cc.o"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/engine/render/window.cc" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/engine/render/CMakeFiles/render.dir/window.cc.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/engine/config.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/engine/render/CMakeFiles/render.dir/__/config.cc.o"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/engine/render/window.cc" "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/engine/render/CMakeFiles/render.dir/window.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,10 +26,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/glfw-3.1.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
-  "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/PathTracing/lab-env-master/build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/glfw-3.1.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/nacken/Documents/University/LTU/CAP_S0017D/PathTracing/lab-env-master/build/exts/CMakeFiles/nanovg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

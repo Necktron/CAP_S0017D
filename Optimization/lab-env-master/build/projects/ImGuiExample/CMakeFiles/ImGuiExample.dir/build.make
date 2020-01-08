@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master"
+CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build"
+CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build
 
 # Include any dependencies generated for this target.
 include projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend.make
@@ -59,16 +59,16 @@ include projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o: ../projects/ImGuiExample/code/exampleapp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o -c "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o"
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc" > CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc > CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc" -o CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/exampleapp.cc -o CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o.requires:
 
@@ -83,16 +83,16 @@ projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o.provides.
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/flags.make
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o: ../projects/ImGuiExample/code/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImGuiExample.dir/code/main.cc.o -c "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o"
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImGuiExample.dir/code/main.cc.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGuiExample.dir/code/main.cc.i"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc" > CMakeFiles/ImGuiExample.dir/code/main.cc.i
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc > CMakeFiles/ImGuiExample.dir/code/main.cc.i
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGuiExample.dir/code/main.cc.s"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc" -o CMakeFiles/ImGuiExample.dir/code/main.cc.s
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample/code/main.cc -o CMakeFiles/ImGuiExample.dir/code/main.cc.s
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o.requires:
 
@@ -125,8 +125,8 @@ ImGuiExample_EXTERNAL_OBJECTS =
 ../bin/ImGuiExample: exts/libimgui.a
 ../bin/ImGuiExample: exts/libnanovg.a
 ../bin/ImGuiExample: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/ImGuiExample"
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImGuiExample.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/ImGuiExample"
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImGuiExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build: ../bin/ImGuiExample
@@ -139,10 +139,10 @@ projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/requires: projects/ImGuiExampl
 .PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/requires
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" && $(CMAKE_COMMAND) -P CMakeFiles/ImGuiExample.dir/cmake_clean.cmake
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample && $(CMAKE_COMMAND) -P CMakeFiles/ImGuiExample.dir/cmake_clean.cmake
 .PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/clean
 
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend:
-	cd "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/projects/ImGuiExample" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample" "/home/nacken/ojaaho-6/S0017D - Konsoler och platformar/Optimization/lab-env-master/build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/ImGuiExample /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend
 
