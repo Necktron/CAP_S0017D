@@ -463,11 +463,11 @@ projects/ImGuiExample/preinstall:
 # Target rules for target projects/ImGuiExample/CMakeFiles/ImGuiExample.dir
 
 # All Build rule for target.
+projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: engine/render/CMakeFiles/render.dir/all
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/CMakeFiles/imgui.dir/all
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: exts/glfw-3.1.1/src/CMakeFiles/glfw.dir/all
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: engine/core/CMakeFiles/core.dir/all
-projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/all: engine/render/CMakeFiles/render.dir/all
 	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/depend
 	$(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=1,2,3 "Built target ImGuiExample"
@@ -522,11 +522,11 @@ projects/example/preinstall:
 # Target rules for target projects/example/CMakeFiles/example.dir
 
 # All Build rule for target.
+projects/example/CMakeFiles/example.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/example/CMakeFiles/example.dir/all: engine/render/CMakeFiles/render.dir/all
 projects/example/CMakeFiles/example.dir/all: exts/CMakeFiles/imgui.dir/all
 projects/example/CMakeFiles/example.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/example/CMakeFiles/example.dir/all: exts/glfw-3.1.1/src/CMakeFiles/glfw.dir/all
-projects/example/CMakeFiles/example.dir/all: engine/core/CMakeFiles/core.dir/all
-projects/example/CMakeFiles/example.dir/all: engine/render/CMakeFiles/render.dir/all
 	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/depend
 	$(MAKE) -f projects/example/CMakeFiles/example.dir/build.make projects/example/CMakeFiles/example.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=7,8,9 "Built target example"

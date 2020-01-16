@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../engine/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 win32/pch.h
-../engine/win32/pch.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/win32/pch.h
 stdint.h
 -
 atomic
@@ -18,21 +18,21 @@ xmmintrin.h
 assert.h
 -
 
-../engine/core/app.h
-GL/glew.h
--
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
+../../exts/glew/include/GL/glew.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
 
-../engine/render/window.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 functional
 -
-GL/glew.h
--
-GLFW/glfw3.h
--
-nanovg.h
--
+../../exts/glew/include/GL/glew.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
+../../exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
+../../exts/nanovg/src/nanovg.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 
-../exts/glew/include/GL/glew.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
 stddef.h
 -
 inttypes.h
@@ -48,7 +48,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-../exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
 stddef.h
 -
 OpenGL/gl3.h
@@ -84,7 +84,7 @@ GL/glext.h
 GL/glu.h
 -
 
-../exts/nanovg/src/nanovg.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
 iostream
@@ -97,18 +97,18 @@ ray.h
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
 
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc
-config.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/config.h
+../../../engine/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 exampleapp.h
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 cstring
 -
 
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
-core/app.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/core/app.h
-render/window.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/render/window.h
+../../../engine/core/app.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
+../../../engine/render/window.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 ray.h
@@ -119,14 +119,24 @@ hitable.h
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc
-config.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/config.h
-exampleapp.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 fstream
 -
 iostream
 -
+string
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+chrono
+-
+../../../engine/config.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
+exampleapp.h
+/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 Vector3D.h
 /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
 sphere.h

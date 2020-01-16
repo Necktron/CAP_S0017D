@@ -2,7 +2,7 @@
 // exampleapp.cc
 // (C) 2015-2016 Individual contributors, see AUTHORS file
 //------------------------------------------------------------------------------
-#include "config.h"
+#include "../../../engine/config.h"
 #include "exampleapp.h"
 #include <cstring>
 

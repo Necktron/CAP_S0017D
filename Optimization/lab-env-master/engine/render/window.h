@@ -7,9 +7,9 @@
 */
 //------------------------------------------------------------------------------
 #include <functional>
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include <nanovg.h>
+#include "../../exts/glew/include/GL/glew.h"
+#include "../../exts/glfw-3.1.1/include/GLFW/glfw3.h"
+#include "../../exts/nanovg/src/nanovg.h"
 
 namespace Display
 {

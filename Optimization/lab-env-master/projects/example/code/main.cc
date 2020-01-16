@@ -2,16 +2,32 @@
 // main.cc
 // (C) 2015-2016 Individual contributors, see AUTHORS file
 //------------------------------------------------------------------------------
-#include "config.h"
-#include "exampleapp.h"
 #include <fstream>
 #include <iostream>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <chrono>
+#include "../../../engine/config.h"
+#include "exampleapp.h"
 #include "Vector3D.h"
 #include "sphere.h"
 #include "hitableList.h"
 #include "float.h"
 #include "camera.h"
 #include "materials.h"
+
+unsigned int width;
+unsigned int height;
+unsigned int RPP;
+int sphereNum;
+string saveIn;
+string picName;
+bool savePic = false;
+
+int rayCount = 0;
+int workTodo = 0;
 
 //DIFFUSE SPHERE EDITION
 vector3D random_in_unit_sphere()
@@ -163,10 +179,32 @@ class dielectric : public material
 		float ref_idx;
 };
 
-//HITABLE LAST CHAPTER
-hitable *random_scene()
+//Pseudo Random Number Generator
+int PRNG()
 {
-	int n = 500;
+	srand(2141);
+	int result = rand()%10;
+	return result;
+}
+
+bool limitReached(int limit, int spheresAlive)
+{
+	if(spheresAlive >= limit)
+	{
+		return true;
+	}
+
+	else
+	{
+		return false;
+	}
+	
+}
+
+//HITABLE LAST CHAPTER
+hitable *random_scene(int sphereBirth)
+{
+	int n = sphereBirth;
 	hitable **list = new hitable*[n+1];
 	list[0] = new sphere(vector3D(0, -1000, 0), 1000, new lambertian(vector3D(0.5, 0.5, 0.5)));
 	int i = 1;
@@ -174,7 +212,7 @@ hitable *random_scene()
 	{
 		for(int b = -11 ; b < 11 ; b++)
 		{
-			float choose_mat =drand48();
+			float choose_mat = drand48();
 			vector3D center(a + 0.9 * drand48(), 0.2, b + 0.9 * drand48());
 			if((center - vector3D(4, 0.2, 0)).vecLength() > 0.9)
 			{
@@ -182,18 +220,33 @@ hitable *random_scene()
 				if(choose_mat < 0.8)
 				{
 					list[i++] = new sphere(center, 0.2, new lambertian(vector3D(drand48() * drand48(), drand48() * drand48(), drand48() * drand48())));
+
+					if(limitReached(n, i))
+					{
+						continue;
+					}
 				}
 
 				//METAL MAT
 				else if(choose_mat < 0.95)
 				{
 					list[i++] = new sphere(center, 0.2, new metal(vector3D(0.5 * (1 + drand48()), 0.5 * (1 + drand48()), 0.5 * (1 + drand48())), 0.5 * drand48()));
+
+					if(limitReached(n, i))
+					{
+						continue;
+					}
 				}
 
 				//GLASS
 				else
 				{
 					list[i++] = new sphere(center, 0.2, new dielectric(1.5));
+
+					if(limitReached(n, i))
+					{
+						continue;
+					}
 				}
 			}
 		}
@@ -207,50 +260,164 @@ hitable *random_scene()
 }
 
 //MAIN
-int main()
+int main(int argc, char const *argv[])
 {
-	std::ofstream img("Chap12_Ballmania.ppm");
+	/*
+	TODO:
+	1) Fix image name error
+	2) Spheres don't spawn in written number, find other way to randomize a and b variables
+	3) Fix calculation of progress through .exe runtime
+	*/
 
-	int nx = 200;
-	int ny = 100;
-	int ns = 100;
-	img << "P3\n" << nx << " " << ny << "\n255\n";
-	// hitable *list[5];
-	// list[0] = new sphere(vector3D(0, 0, -1), 0.5, new lambertian(vector3D(0.1, 0.2, 0.5)));
-	// list[1] = new sphere(vector3D(0, -100.5, -1), 100, new lambertian(vector3D(0.8, 0.8, 0.0)));
-	// list[2] = new sphere(vector3D(1, 0, -1), 0.5, new metal(vector3D(0.8, 0.6, 0.2), 0.2));
-	// list[3] = new sphere(vector3D(-1, 0, -1), 0.5, new dielectric(1.5));
-	// list[4] = new sphere(vector3D(-1, 0, -1), -0.45, new dielectric(1.5));
-	hitable *world = random_scene();
-
-	vector3D lookFrom(0, 2, 1);
-	vector3D lookAt(0, 0, -1);
-	float dist_to_focus = (lookFrom - lookAt).vecLength();
-	float aperture = 2.0;
-
-	camera cam(lookFrom, lookAt, vector3D(0, 1, 0), 90, float(nx)/float(ny), aperture, dist_to_focus);
-
-	for (int j = ny - 1; j >= 0; j--)
+	if(argc = 1 && argv[1] == "help")
 	{
-		for (int i = 0; i < nx; i++)
+		wcout << "Example of input: int width, int height, int rays, int spheresToRender, true, MyPictureName" << endl;
+	}
+
+	else
+	{
+		if(argc > 5)
 		{
-			vector3D col(0, 0, 0);
+			width = strtol(argv[1], NULL, 10);
+			height = strtol(argv[2], NULL, 10);
+			RPP = strtol(argv[3], NULL, 10);
+			sphereNum = atoi(argv[4]);
+			saveIn = argv[5];
+			picName = argv[6];
 
-			for (int s = 0; s < ns; s++)
-			{
-				float u = float(i + drand48()) / float(nx);
-				float v = float(j + drand48()) / float(ny);
-				Ray r = cam.get_ray(u, v);
-				vector3D p = r.pointAtParam(2.0);
-				col += color(r, world, 0);
-			}
-
-			col /= float(ns);
-			col = vector3D(sqrt(col[0]), sqrt(col[1]), sqrt(col[2]));
-			int ir = int(255.99 * col[0]);
-			int ig = int(255.99 * col[1]);
-			int ib = int(255.99 * col[2]);
-			img << ir << " " << ig << " " << ib << "\n";
+			wcout << "Width: " << width << endl;
+			wcout << "Height: " << height << endl;
+			wcout << "Rays: " << RPP << endl;
+			wcout << "Spheres: " << sphereNum << endl;
+			cout << saveIn << endl;
+			cout << picName << endl;
+			wcout << "" << endl;
 		}
+
+		else
+		{
+			width = strtol(argv[1], NULL, 10);
+			height = strtol(argv[2], NULL, 10);
+			RPP = strtol(argv[3], NULL, 10);
+			sphereNum = atoi(argv[4]);
+			saveIn = argv[5];
+
+			wcout << "Width: " << width << endl;
+			wcout << "Height: " << height << endl;
+			wcout << "Rays: " << RPP << endl;
+			wcout << "Spheres: " << sphereNum << endl;
+			wcout << "" << endl;
+		}
+		
+		if(saveIn == "true")
+		{
+			savePic = true;
+		}
+	}
+
+	if(savePic == true)
+	{
+		std::ofstream img(picName+ ".ppm");
+		int nx = width;
+		int ny = height;
+		int ns = RPP;
+		img << "P3\n" << nx << " " << ny << "\n255\n";
+
+		hitable *world = random_scene(sphereNum);
+		vector3D lookFrom(0, 2, 1);
+		vector3D lookAt(0, 0, -1);
+		float dist_to_focus = (lookFrom - lookAt).vecLength();
+		float aperture = 2.0;
+
+		camera cam(lookFrom, lookAt, vector3D(0, 1, 0), 90, float(nx)/float(ny), aperture, dist_to_focus);
+
+		auto start = std::chrono::high_resolution_clock::now();
+
+		for (int j = ny - 1; j >= 0; j--)
+		{
+			for (int i = 0; i < nx; i++)
+			{
+				vector3D col(0, 0, 0);
+
+				for (int s = 0; s < ns; s++)
+				{
+					float u = float(i + drand48()) / float(nx);
+					float v = float(j + drand48()) / float(ny);
+					Ray r = cam.get_ray(u, v);
+					vector3D p = r.pointAtParam(2.0);
+					col += color(r, world, 0);
+				}
+
+				col /= float(ns);
+				col = vector3D(sqrt(col[0]), sqrt(col[1]), sqrt(col[2]));
+				int ir = int(255.99 * col[0]);
+				int ig = int(255.99 * col[1]);
+				int ib = int(255.99 * col[2]);
+				img << ir << " " << ig << " " << ib << "\n";
+			}
+		}
+
+		auto finish = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> exeTime = finish - start;
+
+		wcout << "Progress Of Completion: 100%\n" << endl;
+
+		int numberRes = PRNG();
+		wcout << "Program reached the end! Random number from start was " << numberRes << endl;
+		wcout << "Execution time: " << exeTime.count() << " sec" << endl;
+		wcout << "Created Rays: " << rayCount << endl;
+		wcout << "MRays/s: " << rayCount / exeTime.count() << endl;
+		wcout << "* * * * * * * * * *" << endl;
+	}
+
+	else
+	{
+		int nx = width;
+		int ny = height;
+		int ns = RPP;
+		workTodo = nx * ny * ns;
+
+		hitable *world = random_scene(sphereNum);
+		vector3D lookFrom(0, 2, 1);
+		vector3D lookAt(0, 0, -1);
+		float dist_to_focus = (lookFrom - lookAt).vecLength();
+		float aperture = 2.0;
+
+		camera cam(lookFrom, lookAt, vector3D(0, 1, 0), 90, float(nx)/float(ny), aperture, dist_to_focus);
+
+		auto start = std::chrono::high_resolution_clock::now();
+
+		for (int j = ny - 1; j >= 0; j--)
+		{
+			wcout << "Progress Of Completion: " << /*formula for calculating % of completion <<*/ "%\r";
+			wcout.flush();
+
+			for (int i = 0; i < nx; i++)
+			{
+				vector3D col(0, 0, 0);
+
+				for (int s = 0; s < ns; s++)
+				{
+					float u = float(i + drand48()) / float(nx);
+					float v = float(j + drand48()) / float(ny);
+					Ray r = cam.get_ray(u, v);
+					rayCount++;
+					vector3D p = r.pointAtParam(2.0);
+					col += color(r, world, 0);
+				}
+			}
+		}
+
+		auto finish = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> exeTime = finish - start;
+
+		wcout << "Progress Of Completion: 100%\n" << endl;
+
+		int numberRes = PRNG();
+		wcout << "Program reached the end!" << endl;
+		wcout << "Execution time: " << exeTime.count() << " sec" << endl;
+		wcout << "Created Rays: " << rayCount << endl;
+		wcout << "MRays/s: " << rayCount / exeTime.count() << endl;
+		wcout << "* * * * * * * * * *" << endl;
 	}
 }

@@ -5,7 +5,7 @@ engine/core/CMakeFiles/core.dir/__/config.cc.o: ../engine/config.cc
 engine/core/CMakeFiles/core.dir/__/config.cc.o: ../engine/config.h
 
 engine/core/CMakeFiles/core.dir/app.cc.o: ../engine/config.h
-engine/core/CMakeFiles/core.dir/app.cc.o: ../exts/glew/include/GL/glew.h
 engine/core/CMakeFiles/core.dir/app.cc.o: ../engine/core/app.cc
 engine/core/CMakeFiles/core.dir/app.cc.o: ../engine/core/app.h
+engine/core/CMakeFiles/core.dir/app.cc.o: ../exts/glew/include/GL/glew.h
 

@@ -6,8 +6,8 @@
 	(C) 2015-2016 Individual contributors, see AUTHORS file
 */
 //------------------------------------------------------------------------------
-#include "core/app.h"
-#include "render/window.h"
+#include "../../../engine/core/app.h"
+#include "../../../engine/render/window.h"
 namespace Example
 {
 class ExampleApp : public Core::App
