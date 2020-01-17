@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
+CMAKE_SOURCE_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build
+CMAKE_BINARY_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build"
 
 # Include any dependencies generated for this target.
 include projects/example/CMakeFiles/example.dir/depend.make
@@ -59,16 +59,16 @@ include projects/example/CMakeFiles/example.dir/flags.make
 
 projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o: projects/example/CMakeFiles/example.dir/flags.make
 projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o: ../projects/example/code/exampleapp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/code/exampleapp.cc.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/code/exampleapp.cc.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc"
 
 projects/example/CMakeFiles/example.dir/code/exampleapp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/code/exampleapp.cc.i"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc > CMakeFiles/example.dir/code/exampleapp.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc" > CMakeFiles/example.dir/code/exampleapp.cc.i
 
 projects/example/CMakeFiles/example.dir/code/exampleapp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/code/exampleapp.cc.s"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc -o CMakeFiles/example.dir/code/exampleapp.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc" -o CMakeFiles/example.dir/code/exampleapp.cc.s
 
 projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o.requires:
 
@@ -83,16 +83,16 @@ projects/example/CMakeFiles/example.dir/code/exampleapp.cc.o.provides.build: pro
 
 projects/example/CMakeFiles/example.dir/code/main.cc.o: projects/example/CMakeFiles/example.dir/flags.make
 projects/example/CMakeFiles/example.dir/code/main.cc.o: ../projects/example/code/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/example/CMakeFiles/example.dir/code/main.cc.o"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/code/main.cc.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object projects/example/CMakeFiles/example.dir/code/main.cc.o"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/code/main.cc.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc"
 
 projects/example/CMakeFiles/example.dir/code/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/code/main.cc.i"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc > CMakeFiles/example.dir/code/main.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc" > CMakeFiles/example.dir/code/main.cc.i
 
 projects/example/CMakeFiles/example.dir/code/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/code/main.cc.s"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc -o CMakeFiles/example.dir/code/main.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc" -o CMakeFiles/example.dir/code/main.cc.s
 
 projects/example/CMakeFiles/example.dir/code/main.cc.o.requires:
 
@@ -125,8 +125,8 @@ example_EXTERNAL_OBJECTS =
 ../bin/example: exts/libimgui.a
 ../bin/example: exts/libnanovg.a
 ../bin/example: projects/example/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/example"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/example"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 projects/example/CMakeFiles/example.dir/build: ../bin/example
@@ -139,10 +139,10 @@ projects/example/CMakeFiles/example.dir/requires: projects/example/CMakeFiles/ex
 .PHONY : projects/example/CMakeFiles/example.dir/requires
 
 projects/example/CMakeFiles/example.dir/clean:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
 .PHONY : projects/example/CMakeFiles/example.dir/clean
 
 projects/example/CMakeFiles/example.dir/depend:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/example/CMakeFiles/example.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : projects/example/CMakeFiles/example.dir/depend
 

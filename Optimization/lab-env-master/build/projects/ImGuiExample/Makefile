@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
+CMAKE_SOURCE_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build
+CMAKE_BINARY_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample/CMakeFiles/progress.marks
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles 0
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/projects/ImGuiExample/CMakeFiles/progress.marks"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/clean
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/preinstall
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/preinstall
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
 .PHONY : projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ImGuiExample: projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/rule
 
 # fast build rule for target.
 ImGuiExample/fast:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build
 .PHONY : ImGuiExample/fast
 
 code/exampleapp.o: code/exampleapp.cc.o
@@ -131,7 +131,7 @@ code/exampleapp.o: code/exampleapp.cc.o
 
 # target to build an object file
 code/exampleapp.cc.o:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.o
 .PHONY : code/exampleapp.cc.o
 
 code/exampleapp.i: code/exampleapp.cc.i
@@ -140,7 +140,7 @@ code/exampleapp.i: code/exampleapp.cc.i
 
 # target to preprocess a source file
 code/exampleapp.cc.i:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.i
 .PHONY : code/exampleapp.cc.i
 
 code/exampleapp.s: code/exampleapp.cc.s
@@ -149,7 +149,7 @@ code/exampleapp.s: code/exampleapp.cc.s
 
 # target to generate assembly for a file
 code/exampleapp.cc.s:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/exampleapp.cc.s
 .PHONY : code/exampleapp.cc.s
 
 code/main.o: code/main.cc.o
@@ -158,7 +158,7 @@ code/main.o: code/main.cc.o
 
 # target to build an object file
 code/main.cc.o:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.o
 .PHONY : code/main.cc.o
 
 code/main.i: code/main.cc.i
@@ -167,7 +167,7 @@ code/main.i: code/main.cc.i
 
 # target to preprocess a source file
 code/main.cc.i:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.i
 .PHONY : code/main.cc.i
 
 code/main.s: code/main.cc.s
@@ -176,7 +176,7 @@ code/main.s: code/main.cc.s
 
 # target to generate assembly for a file
 code/main.cc.s:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/build.make projects/ImGuiExample/CMakeFiles/ImGuiExample.dir/code/main.cc.s
 .PHONY : code/main.cc.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

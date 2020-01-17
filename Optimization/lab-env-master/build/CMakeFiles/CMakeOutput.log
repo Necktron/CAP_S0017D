@@ -1,6 +1,6 @@
-The system is: Linux - 4.15.0-72-generic - x86_64
+The system is: Linux - 4.15.0-60-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Compiler: /usr/bin/c99-gcc 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/x86_64-linux-gnu-g++-7 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3f00/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3f00.dir/build.make CMakeFiles/cmTC_c3f00.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c3f00.dir/testCCompiler.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_c3f00.dir/testCCompiler.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c3f00
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f00.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_c3f00.dir/testCCompiler.c.o  -o cmTC_c3f00 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0da74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0da74.dir/build.make CMakeFiles/cmTC_0da74.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0da74.dir/testCCompiler.c.o
+/usr/bin/c99-gcc    -o CMakeFiles/cmTC_0da74.dir/testCCompiler.c.o   -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_0da74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da74.dir/link.txt --verbose=1
+/usr/bin/c99-gcc      -rdynamic CMakeFiles/cmTC_0da74.dir/testCCompiler.c.o  -o cmTC_0da74 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_287ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_287ed.dir/build.make CMakeFiles/cmTC_287ed.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_287ed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_287ed.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o  -o cmTC_287ed 
+Run Build Command:"/usr/bin/make" "cmTC_73994/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73994.dir/build.make CMakeFiles/cmTC_73994.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o
+/usr/bin/c99-gcc    -o CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_73994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73994.dir/link.txt --verbose=1
+/usr/bin/c99-gcc     -v -rdynamic CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o  -o cmTC_73994 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7
+COLLECT_GCC=gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
@@ -61,26 +61,26 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_287ed' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDdOwTJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_287ed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_287ed' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-std=c99' '-v' '-rdynamic' '-o' 'cmTC_73994' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQjsi8L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_73994 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-std=c99' '-v' '-rdynamic' '-o' 'cmTC_73994' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_287ed/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_287ed.dir/build.make CMakeFiles/cmTC_287ed.dir/build]
-  ignore line: [make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_287ed]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_287ed.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o  -o cmTC_287ed ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_73994/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_73994.dir/build.make CMakeFiles/cmTC_73994.dir/build]
+  ignore line: [make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/c99-gcc    -o CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_73994]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73994.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c99-gcc     -v -rdynamic CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o  -o cmTC_73994 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7]
+  ignore line: [COLLECT_GCC=gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_287ed' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDdOwTJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_287ed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c99' '-v' '-rdynamic' '-o' 'cmTC_73994' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQjsi8L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_73994 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDdOwTJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQjsi8L.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_287ed] ==> ignore
+    arg [cmTC_73994] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_287ed.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_73994.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -155,93 +155,33 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_15f20/fast"
-/usr/bin/make -f CMakeFiles/cmTC_15f20.dir/build.make CMakeFiles/cmTC_15f20.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_15f20.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c11 -o CMakeFiles/cmTC_15f20.dir/feature_tests.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_15f20
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f20.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_15f20.dir/feature_tests.c.o  -o cmTC_15f20 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a23cb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a23cb.dir/build.make CMakeFiles/cmTC_a23cb.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a23cb.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c99 -o CMakeFiles/cmTC_a23cb.dir/feature_tests.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a23cb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23cb.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_a23cb.dir/feature_tests.c.o  -o cmTC_a23cb 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_0946b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0946b.dir/build.make CMakeFiles/cmTC_0946b.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0946b.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c90 -o CMakeFiles/cmTC_0946b.dir/feature_tests.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0946b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0946b.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_0946b.dir/feature_tests.c.o  -o cmTC_0946b 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_363a8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_363a8.dir/build.make CMakeFiles/cmTC_363a8.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_363a8.dir/testCXXCompiler.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_363a8.dir/testCXXCompiler.cxx.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_363a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_363a8.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_363a8.dir/testCXXCompiler.cxx.o  -o cmTC_363a8 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e5cd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5cd0.dir/build.make CMakeFiles/cmTC_e5cd0.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5cd0.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e5cd0.dir/testCXXCompiler.cxx.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_e5cd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5cd0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e5cd0.dir/testCXXCompiler.cxx.o  -o cmTC_e5cd0 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f16ef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f16ef.dir/build.make CMakeFiles/cmTC_f16ef.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f16ef
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16ef.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f16ef 
+Run Build Command:"/usr/bin/make" "cmTC_33ad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33ad4.dir/build.make CMakeFiles/cmTC_33ad4.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_33ad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33ad4.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33ad4 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7
+COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
@@ -251,26 +191,26 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f16ef' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccapMM09.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f16ef /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f16ef' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33ad4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQk4Lr4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_33ad4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33ad4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f16ef/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f16ef.dir/build.make CMakeFiles/cmTC_f16ef.dir/build]
-  ignore line: [make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f16ef]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16ef.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f16ef ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_33ad4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_33ad4.dir/build.make CMakeFiles/cmTC_33ad4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_33ad4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33ad4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33ad4 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -280,13 +220,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f16ef' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccapMM09.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f16ef /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33ad4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQk4Lr4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_33ad4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccapMM09.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQk4Lr4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +246,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f16ef] ==> ignore
+    arg [cmTC_33ad4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +258,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_f16ef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_33ad4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +284,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04c6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_04c6d.dir/build.make CMakeFiles/cmTC_04c6d.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_04c6d.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++1z -o CMakeFiles/cmTC_04c6d.dir/feature_tests.cxx.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_04c6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c6d.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_04c6d.dir/feature_tests.cxx.o  -o cmTC_04c6d 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4a2b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a2b6.dir/build.make CMakeFiles/cmTC_4a2b6.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a2b6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4a2b6.dir/feature_tests.cxx.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_4a2b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a2b6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4a2b6.dir/feature_tests.cxx.o  -o cmTC_4a2b6 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +357,17 @@ make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Opt
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_242f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_242f5.dir/build.make CMakeFiles/cmTC_242f5.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_242f5.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++14 -o CMakeFiles/cmTC_242f5.dir/feature_tests.cxx.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_242f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_242f5.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_242f5.dir/feature_tests.cxx.o  -o cmTC_242f5 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_506d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_506d0.dir/build.make CMakeFiles/cmTC_506d0.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_506d0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_506d0.dir/feature_tests.cxx.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_506d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_506d0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_506d0.dir/feature_tests.cxx.o  -o cmTC_506d0 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +430,17 @@ make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Opt
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34dfd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34dfd.dir/build.make CMakeFiles/cmTC_34dfd.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_34dfd.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++11 -o CMakeFiles/cmTC_34dfd.dir/feature_tests.cxx.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_34dfd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34dfd.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_34dfd.dir/feature_tests.cxx.o  -o cmTC_34dfd 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_026fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_026fa.dir/build.make CMakeFiles/cmTC_026fa.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_026fa.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_026fa.dir/feature_tests.cxx.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_026fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_026fa.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_026fa.dir/feature_tests.cxx.o  -o cmTC_026fa 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +503,17 @@ make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Opt
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c56d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c56d7.dir/build.make CMakeFiles/cmTC_c56d7.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c56d7.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++98 -o CMakeFiles/cmTC_c56d7.dir/feature_tests.cxx.o -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c56d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c56d7.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_c56d7.dir/feature_tests.cxx.o  -o cmTC_c56d7 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_34d1d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34d1d.dir/build.make CMakeFiles/cmTC_34d1d.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34d1d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_34d1d.dir/feature_tests.cxx.o -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_34d1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34d1d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_34d1d.dir/feature_tests.cxx.o  -o cmTC_34d1d 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,142 +574,142 @@ make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Opt
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fef40/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fef40.dir/build.make CMakeFiles/cmTC_fef40.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fef40.dir/CheckIncludeFile.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_fef40.dir/CheckIncludeFile.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_fef40
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fef40.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_fef40.dir/CheckIncludeFile.c.o  -o cmTC_fef40 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4e4cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e4cb.dir/build.make CMakeFiles/cmTC_4e4cb.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e4cb.dir/CheckIncludeFile.c.o
+/usr/bin/c99-gcc    -o CMakeFiles/cmTC_4e4cb.dir/CheckIncludeFile.c.o   -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_4e4cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e4cb.dir/link.txt --verbose=1
+/usr/bin/c99-gcc      -rdynamic CMakeFiles/cmTC_4e4cb.dir/CheckIncludeFile.c.o  -o cmTC_4e4cb 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6becd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6becd.dir/build.make CMakeFiles/cmTC_6becd.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6becd.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6becd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6becd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6becd.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6becd.dir/CheckFunctionExists.c.o  -o cmTC_6becd -lpthread 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ce368/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce368.dir/build.make CMakeFiles/cmTC_ce368.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce368.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ce368.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce368.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ce368.dir/CheckFunctionExists.c.o  -o cmTC_ce368 -lpthread 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3203c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3203c.dir/build.make CMakeFiles/cmTC_3203c.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3203c.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_3203c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3203c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3203c.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_3203c.dir/CheckFunctionExists.c.o  -o cmTC_3203c /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_77354/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77354.dir/build.make CMakeFiles/cmTC_77354.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77354.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_77354.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77354.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_77354.dir/CheckFunctionExists.c.o  -o cmTC_77354 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aafb1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aafb1.dir/build.make CMakeFiles/cmTC_aafb1.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aafb1.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_aafb1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_aafb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aafb1.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_aafb1.dir/CheckFunctionExists.c.o  -o cmTC_aafb1 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_685aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_685aa.dir/build.make CMakeFiles/cmTC_685aa.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_685aa.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_685aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_685aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_685aa.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_685aa.dir/CheckFunctionExists.c.o  -o cmTC_685aa 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eff9d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eff9d.dir/build.make CMakeFiles/cmTC_eff9d.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eff9d.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_eff9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eff9d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff9d.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_eff9d.dir/CheckFunctionExists.c.o  -o cmTC_eff9d 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_285c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_285c1.dir/build.make CMakeFiles/cmTC_285c1.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_285c1.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_285c1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_285c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285c1.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_285c1.dir/CheckFunctionExists.c.o  -o cmTC_285c1 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec44e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec44e.dir/build.make CMakeFiles/cmTC_ec44e.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec44e.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_ec44e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ec44e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec44e.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_ec44e.dir/CheckFunctionExists.c.o  -o cmTC_ec44e 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8a739/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a739.dir/build.make CMakeFiles/cmTC_8a739.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a739.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_8a739.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a739
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a739.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_8a739.dir/CheckFunctionExists.c.o  -o cmTC_8a739 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7bd4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7bd4.dir/build.make CMakeFiles/cmTC_f7bd4.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f7bd4.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_f7bd4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f7bd4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7bd4.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_f7bd4.dir/CheckFunctionExists.c.o  -o cmTC_f7bd4 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e1521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1521.dir/build.make CMakeFiles/cmTC_e1521.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1521.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_e1521.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1521.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_e1521.dir/CheckFunctionExists.c.o  -o cmTC_e1521 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83dc0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83dc0.dir/build.make CMakeFiles/cmTC_83dc0.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83dc0.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_83dc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_83dc0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83dc0.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_83dc0.dir/CheckFunctionExists.c.o  -o cmTC_83dc0 -lICE 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_720dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_720dd.dir/build.make CMakeFiles/cmTC_720dd.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_720dd.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_720dd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_720dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_720dd.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_720dd.dir/CheckFunctionExists.c.o  -o cmTC_720dd -lICE 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function glXGetProcAddress exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_659d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_659d7.dir/build.make CMakeFiles/cmTC_659d7.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_659d7.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTC_659d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_659d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_659d7.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    -rdynamic CMakeFiles/cmTC_659d7.dir/CheckFunctionExists.c.o  -o cmTC_659d7 /usr/lib/x86_64-linux-gnu/libGL.so 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1f17f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f17f.dir/build.make CMakeFiles/cmTC_1f17f.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f17f.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTC_1f17f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f17f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f17f.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    -rdynamic CMakeFiles/cmTC_1f17f.dir/CheckFunctionExists.c.o  -o cmTC_1f17f /usr/lib/x86_64-linux-gnu/libGL.so 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function glXGetProcAddressARB exists passed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8943a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8943a.dir/build.make CMakeFiles/cmTC_8943a.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8943a.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTC_8943a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8943a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8943a.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    -rdynamic CMakeFiles/cmTC_8943a.dir/CheckFunctionExists.c.o  -o cmTC_8943a /usr/lib/x86_64-linux-gnu/libGL.so 
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_545bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_545bc.dir/build.make CMakeFiles/cmTC_545bc.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_545bc.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTC_545bc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_545bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545bc.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    -rdynamic CMakeFiles/cmTC_545bc.dir/CheckFunctionExists.c.o  -o cmTC_545bc /usr/lib/x86_64-linux-gnu/libGL.so 
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
 
 

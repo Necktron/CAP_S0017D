@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.c
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/fontstash.h
+ft2build.h
+-
+math.h
+-
+stb_truetype.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_truetype.h
+
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.c
 stdlib.h
 -
 stdio.h
@@ -16,17 +24,17 @@ math.h
 memory.h
 -
 nanovg.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 fontstash.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/fontstash.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/fontstash.h
 stb_image.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
 stb_image.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_image.h
 stdio.h
 -
 stdarg.h
@@ -50,5 +58,25 @@ emmintrin.h
 intrin.h
 -
 arm_neon.h
+-
+
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_truetype.h
+stb_truetype.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_truetype.h
+stdio.h
+-
+stb_truetype.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/stb_truetype.h
+math.h
+-
+math.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+memory.h
 -
 

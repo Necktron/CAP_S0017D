@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <chrono>
+#include <bits/stdc++.h>
 #include "../../../engine/config.h"
 #include "exampleapp.h"
 #include "Vector3D.h"
@@ -22,10 +23,12 @@ unsigned int width;
 unsigned int height;
 unsigned int RPP;
 int sphereNum;
-string saveIn;
 string picName;
 bool savePic = false;
+bool allSpheresCreated = false;
+bool timestampCollected = false;
 
+int estimFinCal = 0;
 int rayCount = 0;
 int workTodo = 0;
 
@@ -208,53 +211,66 @@ hitable *random_scene(int sphereBirth)
 	hitable **list = new hitable*[n+1];
 	list[0] = new sphere(vector3D(0, -1000, 0), 1000, new lambertian(vector3D(0.5, 0.5, 0.5)));
 	int i = 1;
-	for(int a = -11 ; a < 11 ; a++)
+	SPHEREMAKER: for(int a = -11 ; a < 11 ; a++)
 	{
-		for(int b = -11 ; b < 11 ; b++)
+		if(allSpheresCreated != true && a == 11)
 		{
-			float choose_mat = drand48();
-			vector3D center(a + 0.9 * drand48(), 0.2, b + 0.9 * drand48());
-			if((center - vector3D(4, 0.2, 0)).vecLength() > 0.9)
+			wcout << "The loop have expiered, but spheres remain! Restarting loop!" << endl;
+			goto SPHEREMAKER;
+		}
+
+		else if(allSpheresCreated != true)
+		{
+			for(int b = -11 ; b < 11 ; b++)
 			{
-				//DIFFUSE MAT
-				if(choose_mat < 0.8)
+				float choose_mat = drand48();
+				vector3D center(a + 0.9 * drand48(), 0.2, b + 0.9 * drand48());
+				if((center - vector3D(4, 0.2, 0)).vecLength() > 0.9)
 				{
-					list[i++] = new sphere(center, 0.2, new lambertian(vector3D(drand48() * drand48(), drand48() * drand48(), drand48() * drand48())));
-
-					if(limitReached(n, i))
+					//DIFFUSE MAT
+					if(choose_mat < 0.8)
 					{
-						continue;
+						list[i++] = new sphere(center, 0.2, new lambertian(vector3D(drand48() * drand48(), drand48() * drand48(), drand48() * drand48())));
+
+						if(limitReached(n, i))
+						{
+							allSpheresCreated = true;
+							break;
+						}
 					}
-				}
 
-				//METAL MAT
-				else if(choose_mat < 0.95)
-				{
-					list[i++] = new sphere(center, 0.2, new metal(vector3D(0.5 * (1 + drand48()), 0.5 * (1 + drand48()), 0.5 * (1 + drand48())), 0.5 * drand48()));
-
-					if(limitReached(n, i))
+					//METAL MAT
+					else if(choose_mat < 0.95)
 					{
-						continue;
+						list[i++] = new sphere(center, 0.2, new metal(vector3D(0.5 * (1 + drand48()), 0.5 * (1 + drand48()), 0.5 * (1 + drand48())), 0.5 * drand48()));
+
+						if(limitReached(n, i))
+						{
+							allSpheresCreated = true;
+							break;
+						}
 					}
-				}
 
-				//GLASS
-				else
-				{
-					list[i++] = new sphere(center, 0.2, new dielectric(1.5));
-
-					if(limitReached(n, i))
+					//GLASS
+					else
 					{
-						continue;
+						list[i++] = new sphere(center, 0.2, new dielectric(1.5));
+
+						if(limitReached(n, i))
+						{
+							allSpheresCreated = true;
+							break;
+						}
 					}
 				}
 			}
 		}
-	}
 
-	list[i++] = new sphere(vector3D(0, 1, 0), 1.0, new dielectric(1.5));
-	list[i++] = new sphere(vector3D(-4, 1, 0), 1.0, new lambertian(vector3D(0.4, 0.2, 0.1)));
-	list[i++] = new sphere(vector3D(4, 1, 0), 1.0, new metal(vector3D(0.7, 0.6, 0.5), 0.0));
+		else
+		{
+			break;
+		}
+	}
 
 	return new hitable_list(list, i);
 }
@@ -264,67 +280,68 @@ int main(int argc, char const *argv[])
 {
 	/*
 	TODO:
-	1) Fix image name error
-	2) Spheres don't spawn in written number, find other way to randomize a and b variables
-	3) Fix calculation of progress through .exe runtime
+	1) Spheres won't have unique pos after a little while, either restrict up to 500 or
+	2) Fix calculation of progress through .exe runtime
+	3) Pseudorandom generator fix
 	*/
 
-	if(argc = 1 && argv[1] == "help")
+	if(argc == 6)
 	{
-		wcout << "Example of input: int width, int height, int rays, int spheresToRender, true, MyPictureName" << endl;
+		width = strtol(argv[1], NULL, 10);
+		height = strtol(argv[2], NULL, 10);
+		RPP = strtol(argv[3], NULL, 10);
+		sphereNum = atoi(argv[4]);
+		picName = argv[5];
+		savePic = true;
+
+		wcout << "Rendering Mode - Picture is being processed and saved" << endl;
+		wcout << "" << endl;
+		wcout << "Width: " << width << endl;
+		wcout << "Height: " << height << endl;
+		wcout << "Rays: " << RPP << endl;
+		wcout << "Spheres: " << sphereNum << endl;
+		wcout << "" << endl;
+	}
+
+	else if(argc == 5)
+	{
+		width = strtol(argv[1], NULL, 10);
+		height = strtol(argv[2], NULL, 10);
+		RPP = strtol(argv[3], NULL, 10);
+		sphereNum = atoi(argv[4]);
+
+		wcout << "Benchmarking Mode - Picture will not be saved" << endl;
+		wcout << "" << endl;
+		wcout << "Width: " << width << endl;
+		wcout << "Height: " << height << endl;
+		wcout << "Rays: " << RPP << endl;
+		wcout << "Spheres: " << sphereNum << endl;
+		wcout << "" << endl;
 	}
 
 	else
 	{
-		if(argc > 5)
-		{
-			width = strtol(argv[1], NULL, 10);
-			height = strtol(argv[2], NULL, 10);
-			RPP = strtol(argv[3], NULL, 10);
-			sphereNum = atoi(argv[4]);
-			saveIn = argv[5];
-			picName = argv[6];
-
-			wcout << "Width: " << width << endl;
-			wcout << "Height: " << height << endl;
-			wcout << "Rays: " << RPP << endl;
-			wcout << "Spheres: " << sphereNum << endl;
-			cout << saveIn << endl;
-			cout << picName << endl;
-			wcout << "" << endl;
-		}
-
-		else
-		{
-			width = strtol(argv[1], NULL, 10);
-			height = strtol(argv[2], NULL, 10);
-			RPP = strtol(argv[3], NULL, 10);
-			sphereNum = atoi(argv[4]);
-			saveIn = argv[5];
-
-			wcout << "Width: " << width << endl;
-			wcout << "Height: " << height << endl;
-			wcout << "Rays: " << RPP << endl;
-			wcout << "Spheres: " << sphereNum << endl;
-			wcout << "" << endl;
-		}
-		
-		if(saveIn == "true")
-		{
-			savePic = true;
-		}
+		wcout << "" << endl;
+		wcout << "Error 342 : Incorrect pharsing of variables!" << endl;
+		wcout << "Example of input: width, height, rays, spheresToRender, pictureName" << endl;
+		wcout << "If you don't want to save the picture, simply exclude picture name from input" << endl;
+		wcout << "" << endl;
+		exit(0);
 	}
 
 	if(savePic == true)
 	{
-		std::ofstream img(picName+ ".ppm");
+		string saveName = picName+ ".ppm";
+		cout << saveName << endl;
+		std::ofstream img(saveName.c_str());
 		int nx = width;
 		int ny = height;
 		int ns = RPP;
+		workTodo = nx * ny * ns;
 		img << "P3\n" << nx << " " << ny << "\n255\n";
 
 		hitable *world = random_scene(sphereNum);
-		vector3D lookFrom(0, 2, 1);
+		vector3D lookFrom(-2, 2, 1);
 		vector3D lookAt(0, 0, -1);
 		float dist_to_focus = (lookFrom - lookAt).vecLength();
 		float aperture = 2.0;
@@ -335,6 +352,7 @@ int main(int argc, char const *argv[])
 
 		for (int j = ny - 1; j >= 0; j--)
 		{
+
 			for (int i = 0; i < nx; i++)
 			{
 				vector3D col(0, 0, 0);
@@ -344,8 +362,34 @@ int main(int argc, char const *argv[])
 					float u = float(i + drand48()) / float(nx);
 					float v = float(j + drand48()) / float(ny);
 					Ray r = cam.get_ray(u, v);
+					rayCount++;
 					vector3D p = r.pointAtParam(2.0);
 					col += color(r, world, 0);
+					
+					if(!timestampCollected)
+					{
+						auto estimStamp = std::chrono::high_resolution_clock::now();
+						std::chrono::duration<double> estimFin = estimStamp - start;
+
+						if(estimFin >= std::chrono::seconds(10))
+						{
+							timestampCollected = true;
+							estimFinCal = (rayCount / 10);
+							estimFinCal = estimFinCal / 60;
+						}
+
+						wcout << "Estimated Time Remaining: \r\n";
+						wcout << "Progress Of Completion: " << rayCount << "/" << workTodo << "\r\n";
+						wcout.flush();
+					}
+
+					else
+					{
+						wcout << "Estimated Time Remaining: " << estimFinCal << "min\r\n"; 
+						wcout << "Progress Of Completion: " << rayCount << "/" << workTodo << "\r\n";
+						wcout.flush();
+					}
+					
 				}
 
 				col /= float(ns);
@@ -360,10 +404,9 @@ int main(int argc, char const *argv[])
 		auto finish = std::chrono::high_resolution_clock::now();
 		std::chrono::duration<double> exeTime = finish - start;
 
-		wcout << "Progress Of Completion: 100%\n" << endl;
-
 		int numberRes = PRNG();
-		wcout << "Program reached the end! Random number from start was " << numberRes << endl;
+		wcout << "\n" << endl;
+		wcout << "RENDER COMPLETE!" << endl;
 		wcout << "Execution time: " << exeTime.count() << " sec" << endl;
 		wcout << "Created Rays: " << rayCount << endl;
 		wcout << "MRays/s: " << rayCount / exeTime.count() << endl;
@@ -378,7 +421,7 @@ int main(int argc, char const *argv[])
 		workTodo = nx * ny * ns;
 
 		hitable *world = random_scene(sphereNum);
-		vector3D lookFrom(0, 2, 1);
+		vector3D lookFrom(0, 3, 10);
 		vector3D lookAt(0, 0, -1);
 		float dist_to_focus = (lookFrom - lookAt).vecLength();
 		float aperture = 2.0;
@@ -389,9 +432,6 @@ int main(int argc, char const *argv[])
 
 		for (int j = ny - 1; j >= 0; j--)
 		{
-			wcout << "Progress Of Completion: " << /*formula for calculating % of completion <<*/ "%\r";
-			wcout.flush();
-
 			for (int i = 0; i < nx; i++)
 			{
 				vector3D col(0, 0, 0);
@@ -404,6 +444,30 @@ int main(int argc, char const *argv[])
 					rayCount++;
 					vector3D p = r.pointAtParam(2.0);
 					col += color(r, world, 0);
+
+					if(!timestampCollected)
+					{
+						auto estimStamp = std::chrono::high_resolution_clock::now();
+						std::chrono::duration<double> estimFin = estimStamp - start;
+
+						if(estimFin >= std::chrono::seconds(10))
+						{
+							timestampCollected = true;
+							estimFinCal = (rayCount / 10);
+							estimFinCal = estimFinCal / 60;
+						}
+
+						wcout << "Estimated Time Remaining: \r\n";
+						wcout << "Progress Of Completion: " << rayCount << "/" << workTodo << "\r\n";
+						wcout.flush();
+					}
+
+					else
+					{
+						wcout << "Estimated Time Remaining: " << estimFinCal << "min\r\n"; 
+						wcout << "Progress Of Completion: " << rayCount << "/" << workTodo << "\r\n";
+						wcout.flush();
+					}
 				}
 			}
 		}
@@ -411,10 +475,9 @@ int main(int argc, char const *argv[])
 		auto finish = std::chrono::high_resolution_clock::now();
 		std::chrono::duration<double> exeTime = finish - start;
 
-		wcout << "Progress Of Completion: 100%\n" << endl;
-
 		int numberRes = PRNG();
-		wcout << "Program reached the end!" << endl;
+		wcout << "\n" << endl;
+		wcout << "RENDER COMPLETE!" << endl;
 		wcout << "Execution time: " << exeTime.count() << " sec" << endl;
 		wcout << "Created Rays: " << rayCount << endl;
 		wcout << "MRays/s: " << rayCount / exeTime.count() << endl;

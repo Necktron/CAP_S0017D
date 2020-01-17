@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
+CMAKE_SOURCE_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build
+CMAKE_BINARY_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/engine/core/CMakeFiles/progress.marks
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 engine/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles 0
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/engine/core/CMakeFiles/progress.marks"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 engine/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 engine/core/clean
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 engine/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 engine/core/preinstall
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 engine/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 engine/core/preinstall
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 engine/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/core/CMakeFiles/core.dir/rule:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f CMakeFiles/Makefile2 engine/core/CMakeFiles/core.dir/rule
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f CMakeFiles/Makefile2 engine/core/CMakeFiles/core.dir/rule
 .PHONY : engine/core/CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ core: engine/core/CMakeFiles/core.dir/rule
 
 # fast build rule for target.
 core/fast:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/build
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/build
 .PHONY : core/fast
 
 __/config.o: __/config.cc.o
@@ -131,7 +131,7 @@ __/config.o: __/config.cc.o
 
 # target to build an object file
 __/config.cc.o:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.o
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.o
 .PHONY : __/config.cc.o
 
 __/config.i: __/config.cc.i
@@ -140,7 +140,7 @@ __/config.i: __/config.cc.i
 
 # target to preprocess a source file
 __/config.cc.i:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.i
 .PHONY : __/config.cc.i
 
 __/config.s: __/config.cc.s
@@ -149,7 +149,7 @@ __/config.s: __/config.cc.s
 
 # target to generate assembly for a file
 __/config.cc.s:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/__/config.cc.s
 .PHONY : __/config.cc.s
 
 app.o: app.cc.o
@@ -158,7 +158,7 @@ app.o: app.cc.o
 
 # target to build an object file
 app.cc.o:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.o
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.o
 .PHONY : app.cc.o
 
 app.i: app.cc.i
@@ -167,7 +167,7 @@ app.i: app.cc.i
 
 # target to preprocess a source file
 app.cc.i:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.i
 .PHONY : app.cc.i
 
 app.s: app.cc.s
@@ -176,7 +176,7 @@ app.s: app.cc.s
 
 # target to generate assembly for a file
 app.cc.s:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(MAKE) -f engine/core/CMakeFiles/core.dir/build.make engine/core/CMakeFiles/core.dir/app.cc.s
 .PHONY : app.cc.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

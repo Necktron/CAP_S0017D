@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core
+# Install script for directory: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

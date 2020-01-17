@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.c" "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o"
+  "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.c" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/CMakeFiles/nanovg.dir/nanovg/src/nanovg.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

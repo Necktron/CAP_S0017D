@@ -1,4 +1,4 @@
-# Install script for directory: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/src
+# Install script for directory: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

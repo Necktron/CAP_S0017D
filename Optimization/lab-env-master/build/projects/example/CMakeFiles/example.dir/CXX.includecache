@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 win32/pch.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/win32/pch.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/win32/pch.h
 stdint.h
 -
 atomic
@@ -18,21 +18,21 @@ xmmintrin.h
 assert.h
 -
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
 ../../exts/glew/include/GL/glew.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 functional
 -
 ../../exts/glew/include/GL/glew.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
 ../../exts/glfw-3.1.1/include/GLFW/glfw3.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
 ../../exts/nanovg/src/nanovg.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/include/GL/glew.h
 stddef.h
 -
 inttypes.h
@@ -48,7 +48,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h
 stddef.h
 -
 OpenGL/gl3.h
@@ -84,41 +84,41 @@ GL/glext.h
 GL/glu.h
 -
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/nanovg/src/nanovg.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
 iostream
 -
 math.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/math.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/math.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/camera.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/camera.h
 ray.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.cc
 ../../../engine/config.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 exampleapp.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 cstring
 -
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 ../../../engine/core/app.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/core/app.h
 ../../../engine/render/window.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/render/window.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 ray.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitableList.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitableList.h
 hitable.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/main.cc
 fstream
 -
 iostream
@@ -133,32 +133,34 @@ time.h
 -
 chrono
 -
+bits/stdc++.h
+-
 ../../../engine/config.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/engine/config.h
 exampleapp.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/exampleapp.h
 Vector3D.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
 sphere.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/sphere.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/sphere.h
 hitableList.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitableList.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitableList.h
 float.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/float.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/float.h
 camera.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/camera.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/camera.h
 materials.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/materials.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/materials.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/materials.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/materials.h
 hitable.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/ray.h
 Vector3D.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/Vector3D.h
 
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/sphere.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/sphere.h
 hitable.h
-/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
+/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/projects/example/code/hitable.h
 

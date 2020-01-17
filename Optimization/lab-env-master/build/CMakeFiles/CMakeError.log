@@ -1,24 +1,41 @@
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ad1d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2ad1d.dir/build.make CMakeFiles/cmTC_2ad1d.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2ad1d.dir/CheckSymbolExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_2ad1d.dir/CheckSymbolExists.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2ad1d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ad1d.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_2ad1d.dir/CheckSymbolExists.c.o  -o cmTC_2ad1d 
-CMakeFiles/cmTC_2ad1d.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_0e74d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e74d.dir/build.make CMakeFiles/cmTC_0e74d.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e74d.dir/feature_tests.c.o
+/usr/bin/c99-gcc   -std=c11 -o CMakeFiles/cmTC_0e74d.dir/feature_tests.c.o   -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/feature_tests.c"
+c99-gcc called with non ISO C99 option -std=c11
+CMakeFiles/cmTC_0e74d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0e74d.dir/feature_tests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0e74d.dir/feature_tests.c.o] Error 1
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e74d/fast' failed
+make: *** [cmTC_0e74d/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60da9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60da9.dir/build.make CMakeFiles/cmTC_60da9.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60da9.dir/CheckSymbolExists.c.o
+/usr/bin/c99-gcc    -o CMakeFiles/cmTC_60da9.dir/CheckSymbolExists.c.o   -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_60da9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60da9.dir/link.txt --verbose=1
+/usr/bin/c99-gcc      -rdynamic CMakeFiles/cmTC_60da9.dir/CheckSymbolExists.c.o  -o cmTC_60da9 
+CMakeFiles/cmTC_60da9.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2ad1d.dir/build.make:97: recipe for target 'cmTC_2ad1d' failed
-make[1]: *** [cmTC_2ad1d] Error 1
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2ad1d/fast' failed
-make: *** [cmTC_2ad1d/fast] Error 2
+CMakeFiles/cmTC_60da9.dir/build.make:97: recipe for target 'cmTC_60da9' failed
+make[1]: *** [cmTC_60da9] Error 1
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_60da9/fast' failed
+make: *** [cmTC_60da9/fast] Error 2
 
-File /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,43 +51,43 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2f9f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2f9f5.dir/build.make CMakeFiles/cmTC_2f9f5.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2f9f5.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2f9f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2f9f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9f5.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2f9f5.dir/CheckFunctionExists.c.o  -o cmTC_2f9f5 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_9a880/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a880.dir/build.make CMakeFiles/cmTC_9a880.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a880.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9a880.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a880
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a880.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9a880.dir/CheckFunctionExists.c.o  -o cmTC_9a880 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2f9f5.dir/build.make:97: recipe for target 'cmTC_2f9f5' failed
-make[1]: *** [cmTC_2f9f5] Error 1
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2f9f5/fast' failed
-make: *** [cmTC_2f9f5/fast] Error 2
+CMakeFiles/cmTC_9a880.dir/build.make:97: recipe for target 'cmTC_9a880' failed
+make[1]: *** [cmTC_9a880] Error 1
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a880/fast' failed
+make: *** [cmTC_9a880/fast] Error 2
 
 
 Determining if the function glXGetProcAddressEXT exists failed with the following output:
-Change Dir: /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
+Change Dir: /home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_defc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_defc8.dir/build.make CMakeFiles/cmTC_defc8.dir/build
-make[1]: Entering directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_defc8.dir/CheckFunctionExists.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_defc8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_defc8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_defc8.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_defc8.dir/CheckFunctionExists.c.o  -o cmTC_defc8 /usr/lib/x86_64-linux-gnu/libGL.so 
-CMakeFiles/cmTC_defc8.dir/CheckFunctionExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_3f859/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f859.dir/build.make CMakeFiles/cmTC_3f859.dir/build
+make[1]: Entering directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f859.dir/CheckFunctionExists.c.o
+/usr/bin/c99-gcc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_3f859.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3f859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f859.dir/link.txt --verbose=1
+/usr/bin/c99-gcc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_3f859.dir/CheckFunctionExists.c.o  -o cmTC_3f859 /usr/lib/x86_64-linux-gnu/libGL.so 
+CMakeFiles/cmTC_3f859.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `glXGetProcAddressEXT'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_defc8.dir/build.make:98: recipe for target 'cmTC_defc8' failed
-make[1]: *** [cmTC_defc8] Error 1
-make[1]: Leaving directory '/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_defc8/fast' failed
-make: *** [cmTC_defc8/fast] Error 2
+CMakeFiles/cmTC_3f859.dir/build.make:98: recipe for target 'cmTC_3f859' failed
+make[1]: *** [cmTC_3f859] Error 1
+make[1]: Leaving directory '/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3f859/fast' failed
+make: *** [cmTC_3f859/fast] Error 2
 
 

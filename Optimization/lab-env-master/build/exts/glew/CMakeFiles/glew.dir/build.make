@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master
+CMAKE_SOURCE_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build
+CMAKE_BINARY_DIR = "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build"
 
 # Include any dependencies generated for this target.
 include exts/glew/CMakeFiles/glew.dir/depend.make
@@ -59,16 +59,16 @@ include exts/glew/CMakeFiles/glew.dir/flags.make
 
 exts/glew/CMakeFiles/glew.dir/src/glew.c.o: exts/glew/CMakeFiles/glew.dir/flags.make
 exts/glew/CMakeFiles/glew.dir/src/glew.c.o: ../exts/glew/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/glew/CMakeFiles/glew.dir/src/glew.c.o"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && /usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/glew/CMakeFiles/glew.dir/src/glew.c.o"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && /usr/bin/c99-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c"
 
 exts/glew/CMakeFiles/glew.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glew.c.i"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && /usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c > CMakeFiles/glew.dir/src/glew.c.i
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && /usr/bin/c99-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c" > CMakeFiles/glew.dir/src/glew.c.i
 
 exts/glew/CMakeFiles/glew.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glew.c.s"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && /usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c -o CMakeFiles/glew.dir/src/glew.c.s
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && /usr/bin/c99-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew/src/glew.c" -o CMakeFiles/glew.dir/src/glew.c.s
 
 exts/glew/CMakeFiles/glew.dir/src/glew.c.o.requires:
 
@@ -91,9 +91,9 @@ glew_EXTERNAL_OBJECTS =
 exts/glew/libglew.a: exts/glew/CMakeFiles/glew.dir/src/glew.c.o
 exts/glew/libglew.a: exts/glew/CMakeFiles/glew.dir/build.make
 exts/glew/libglew.a: exts/glew/CMakeFiles/glew.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglew.a"
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglew.a"
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 exts/glew/CMakeFiles/glew.dir/build: exts/glew/libglew.a
@@ -105,10 +105,10 @@ exts/glew/CMakeFiles/glew.dir/requires: exts/glew/CMakeFiles/glew.dir/src/glew.c
 .PHONY : exts/glew/CMakeFiles/glew.dir/requires
 
 exts/glew/CMakeFiles/glew.dir/clean:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
 .PHONY : exts/glew/CMakeFiles/glew.dir/clean
 
 exts/glew/CMakeFiles/glew.dir/depend:
-	cd /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew /home/nacken/Documents/University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/exts/glew" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew" "/home/necktron/Documents/GitLab University/LTU/CAP_S0017D/Optimization/lab-env-master/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : exts/glew/CMakeFiles/glew.dir/depend
 
